@@ -1,0 +1,18 @@
+.cont{
+    height: 400px;
+    width: 400px;
+    display: flex;
+   
+}
+.box{
+    height: 80px;
+    width: 120px;
+    border: 2px solid purple;
+    margin: 20px;
+    
+}
+@media screen and (max-width:360px){
+    .cont{
+        display: block;
+    }
+}
